@@ -1,0 +1,127 @@
+body{
+	background: #fff;
+}
+.img-product img{
+ 	width: 100%;
+    margin-top: 20px;
+ }
+ .name-product p{
+ 	font-size: 17px;
+    font-weight: bold;
+    padding: 12px;
+ }
+ .price-product {
+ 	padding-top: 15px;
+ 	color: #c3040a;
+ }
+ .item-cart-checkout{
+ 	border-bottom: 1px solid #efefef;
+ 	width: 100%;
+ 	min-height: 65px;
+ 	padding: 5px;
+ }
+ .title-cart{
+ 	padding: 13px;
+    font-weight: bold;
+     border-bottom: 1px solid #efefef;
+ }
+ .provisional{
+ 	padding-top:  10px;
+ 	min-height: 65px;
+ }
+  .provisional .col-md-5{
+  	padding-bottom: 10px;
+  }
+ .provisional .col-md-7{
+  	color: #c3040a;
+  	padding-bottom: 10px;
+  }
+   .total-payment{
+   	padding-top: 20px;
+   }
+  .total-payment .col-md-7{
+  	color: #c3040a;
+  	font-size: 20px;
+  }
+  .action-payment{
+  	padding-top: 50px;
+  }
+  input{
+  	border: 1px solid #3c8dbc !important;
+    border-radius: 0 !important;
+  }
+  input:focus{
+	border-color: #00a65a !important;
+   		box-shadow: none !important;
+  }
+  select{
+  	border: 1px solid #3c8dbc !important;
+    border-radius: 0 !important;
+  }
+   select:focus{
+   	border-color: #00a65a !important;
+   	box-shadow: none !important;
+   }
+   .select2-container input{
+   	border: none !important;
+   }
+   .select2-container--default.select2-container--focus .select2-selection--multiple{
+    border-radius: 0 !important;
+   }
+   .select2-container--default .select2-selection--multiple{
+   	border: 1px solid #3c8dbc !important;
+    border-radius: 0 !important;
+   }
+   .select2-dropdown{
+    border-color: #3c8dbc !important;
+    border-radius: 0 !important;
+   }
+   .select2-container--default .select2-selection--multiple .select2-selection__choice{
+   	background: #00a65a;
+   	border-color: #00a65a;
+   	color: #fff;
+   }
+   .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+   	display: inline-block;
+       color: #c12e2a;
+   }
+
+   textarea{
+   	border: 1px solid #3c8dbc !important;
+    border-radius: 0 !important;
+   }
+   textarea:focus{
+   		border-color: #00a65a !important;
+   		box-shadow: none !important;
+   }
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+#card-errors {
+    color: #fa755a
+}

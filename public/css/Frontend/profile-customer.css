@@ -1,0 +1,23 @@
+.img-customer{
+    width: 300px;
+    height: 300px;
+}
+.img-customer img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 0px #e1e4e9;
+}
+.profile-customer{
+    color: #fff;
+    background-color: #49646b;
+    padding: 20px;
+}
+.bread-crumb .container{
+    padding: 0;
+}
+.name-customer a{
+    color: #fff;
+}
+.name-customer a:hover{
+    color: #c12e2a;
+}

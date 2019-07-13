@@ -1,0 +1,202 @@
+body{
+	background: #fff;
+}
+.box-info-product {
+    width: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.box-info-product .name {
+    font-size: 14px;
+    margin-bottom: 7px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 0;
+}
+ .box-info-product .name a {
+    color: #242424;
+    font-weight: 500;
+}
+.box-info-product .action {
+    position: relative;
+    padding: 0 !important;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.box-info-product .action .btn-link {
+    border: 0;
+    color: #ff5152;
+    font-size: 13px;
+    position: static;
+    padding: 0;
+    line-height: 1.1;
+}
+.box-price {
+    float: left;
+    width: 110px;
+    padding-right: 10px;
+}
+.box-price .price {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-top: 0;
+}	
+.quantity-block {
+    width: 120px;
+    float: right;
+}
+.img-thumnail-custom .image{
+    width: 100px;
+    height: 50px;
+}
+input {
+    display: inline-block;
+    width: auto;
+}
+.quantity-block .input-group-btn button.bootstrap-touchspin-up {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e5e5e5;
+    border-color: #e5e5e5;
+    border-left: 0;
+    color: #999;
+    line-height: 20px;
+    padding: 3px 9px;
+    margin: 0;
+    width: 28px;
+    background-color: #fff;
+    float: right;
+}
+.quantity-block .input-group-btn .js-quantity-product {
+    display: inline-block;
+    height: 28px;
+    padding: 0 5px;
+    text-align: center;
+    border-radius: 0;
+    width: 35px;
+    float: right;
+    min-height: 28px;
+    border: 1px solid #e5e5e5;
+}
+ .quantity-block .input-group-btn button.bootstrap-touchspin-down {
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    border-color: #e5e5e5;
+    color: #999;
+    line-height: 20px;
+    padding: 3px 9px;
+    margin: 0;
+    width: 28px;
+    background-color: #fff;
+    float: right;
+}
+.quantity-block .input-group-btn button {
+    height: 28px;
+}
+.item-cart{
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 20px;
+}
+.quantity-right{
+	float: right;
+}
+#right-affix .each-row{
+	width: 100%;
+    clear: both;
+}
+#right-affix .each-row .box-style {
+    background-color: transparent;
+    padding: 17px 0 21px 0;
+}
+#right-affix .each-row .box-style.fee .list-info-price {
+    margin: 0;
+}
+#right-affix .each-row .box-style.fee .list-info-price span {
+    font-weight: 500;
+}
+#right-affix .each-row .box-style.fee .list-info-price strong {
+    float: right;
+    font-weight: 700;
+}
+#right-affix .each-row .box-style+.box-style {
+    border-top: 1px solid #f4f4f4;
+}
+
+#right-affix .each-row .box-style.fee .total2 {
+    font-weight: 500;
+}
+#right-affix .each-row .box-style.fee .total2 .text-label {
+    margin-top: 5px;
+    display: inline-block;
+}
+#right-affix .each-row .box-style.fee .total2 .amount {
+    float: right;
+}
+#right-affix .each-row .box-style.fee .total2 .amount p {
+    margin: 0;
+    text-align: right;
+    line-height: 1.1;
+}
+#right-affix .each-row .box-style.fee .total2 .amount p strong {
+    color: #ff5152;
+    font-size: 22px;
+    font-weight: 700;
+}
+#right-affix .btn-checkout {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    user-select: none;
+    color: #fff;
+    background-color: #ff5152;
+    border-color: #ff5152;
+    height: 40px;
+    text-transform: uppercase;
+}
+#right-affix .btn-checkouts {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    user-select: none;
+    color: #ff5152;
+    background-color: #fff;
+    border-color: #ff5152;
+    height: 40px;
+    text-transform: uppercase;
+}
+.cart .btn-proceed-checkout {
+    background: #ff5152;
+    line-height: 20px;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+.cart_submit{
+	float: right
+}
+.breadcrumb{
+	background: #fff;
+	padding-top: 10px;
+}

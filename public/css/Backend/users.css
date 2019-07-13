@@ -1,0 +1,31 @@
+.profile{
+    padding: 0 !important;
+
+}
+.header-profile{
+    min-height : 200px;
+}
+.img-profile{
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: -80px;
+    height: 150px;
+}
+.info-basic{
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+.info-basic .col-md-2 b{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+}
+.info-basic .col-md-2 p{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+}
+.title-infomation{
+    margin-left: 20px;
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
