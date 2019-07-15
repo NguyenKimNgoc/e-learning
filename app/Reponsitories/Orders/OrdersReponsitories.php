@@ -19,8 +19,9 @@ class OrdersReponsitories extends BaseRepository
     }
     public function checkOrdersCourse($customer_id,$course_id){
         return $this->model
-            ->where('l_orders.customer_id',$customer_id)
-            ->where('l_orders.course_id',$course_id)
+            ->leftJoin('l_orders_save','l_orders_save.order_code','l_orders.order_code')
+            ->where('l_orders_save.customer_id',$customer_id)
+            ->where('l_orders_save.course_id',$course_id)
             ->select('l_orders.*')
             ->get();
     }

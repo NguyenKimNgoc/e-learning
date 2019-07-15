@@ -83,7 +83,7 @@ class CheckoutController extends Controller
                 'amount' => $total,
                 'currency' => 'USD',
                 'source' => $request->stripeSource,
-                'description' => 'Orders',
+                'description' => $request->note_order,
                 'receipt_email' => $request->email,
                 'metadata' => [
                     'contents' => $contents,
